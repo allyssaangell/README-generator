@@ -3,7 +3,7 @@
   [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This project is to domenstrate the creation of a README file using command line prompts.
+This project is to demonstrate the creation of a README.md file using command line prompts.
 
 
  ## Table of Contents
@@ -17,7 +17,7 @@ This project is to domenstrate the creation of a README file using command line 
 
 
  ## Installation Instructions
- You will need to install the proper node modules prior to starting.
+ You will need to install the proper node module packages prior to starting.
 
  ## Usage Information
  Usage information goes here.
@@ -39,4 +39,4 @@ This project is to domenstrate the creation of a README file using command line 
  Email Address: a.angell2@yahoo.com
 
  ## Video Demonstration
- https://watch.screencastify.com/v/FIZsdlDPmViaQikxOZJa
+ <iframe src="https://drive.google.com/file/d/17-vSeLwJa3PY2tO3z3bE_CirZw6IvBk5/preview" width="640" height="480"></iframe>
