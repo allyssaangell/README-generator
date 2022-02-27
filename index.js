@@ -66,7 +66,7 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "What is your project license? (Required)",
-      choices: ["Apache 2.0", "ISC", "MIT"],
+      choices: ["Apache_2.0", "ISC", "MIT"],
       validate: (licenseInput) => {
         if (licenseInput) {
           return true;

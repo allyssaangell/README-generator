@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-//function renderLicenseBadge(license) 
+//function renderLicenseBadge(license)
 //{
 //   if (answers.license === "MIT") {
 //     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
@@ -23,10 +23,7 @@
 function generateMarkdown(answers) {
   return `# ${answers.title}
 
-  [![license](https://img.shields.io/badge/License-${answers.license
-    .toUpperCase()
-    .split("-")
-    .join("v")}-blue.svg)](https://choosealicense.com/licenses/${answers.license}/) (https://opensource.org/licenses/${answers.license})
+  [![license](https://img.shields.io/badge/License-${answers.license}-blue.svg)](https://opensource.org/licenses/${answers.license})
 
 ## Description
 ${answers.description}
@@ -53,13 +50,13 @@ ${answers.description}
  ${answers.tests}
 
  ## License
- ${answers.license}
+ [![license](https://img.shields.io/badge/License-${answers.license}-blue.svg)](https://opensource.org/licenses/${answers.license})
 
  ## Questions
  Please feel free to reach out if you have any additional questions!
 
  GitHub Username: ${answers.username} (https://github.com/${answers.username})
- 
+
  Email Address: ${answers.email}
 `;
 }

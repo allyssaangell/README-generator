@@ -1,9 +1,9 @@
 # README Generator
 
-  [![license](https://img.shields.io/badge/License-ISC-blue.svg)](https://choosealicense.com/licenses/ISC/) (https://opensource.org/licenses/ISC)
+  ![license](https://img.shields.io/badge/License-MIT-blue.svg)(https://opensource.org/licenses/MIT)
 
 ## Description
-This is a demo project to show how to populate a README description using the terminal.
+This project is to demonstrate the creation of a README file using command line prompts.
 
   ## Table of Contents
 
@@ -15,21 +15,23 @@ This is a demo project to show how to populate a README description using the te
  * [Questions](#Questions)
   
  ## Installation Instructions
- install all the proper node modules prior.
+ you will need to install the proper node modules prior to starting.
 
  ## Usage Information
- usage info here
+ Usage information here.
 
  ## Contributors
- Just me
+ There are no additional contributors.
 
  ## Test Instructions
- test with node
+ Demo test instructions.
 
  ## License
- ISC
+ [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
  ## Questions
  Please feel free to reach out if you have any additional questions!
+
  GitHub Username: allyssaangell (https://github.com/allyssaangell)
- Email Address: emailhere
+
+ Email Address: a.angell2@yahoo.com
