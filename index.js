@@ -2,9 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-
 const generateMarkdown = require("./Develop/utils/generateMarkdown.js");
-
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
