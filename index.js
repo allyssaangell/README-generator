@@ -66,11 +66,7 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "What is your project license? (Required)",
-      choices: [
-        "Apache 2.0",
-        "ISC",
-        "MIT"
-    ],
+      choices: ["Apache 2.0", "ISC", "MIT"],
       validate: (licenseInput) => {
         if (licenseInput) {
           return true;
@@ -108,13 +104,26 @@ const questions = () => {
     },
     {
       type: "input",
-      name: "questions",
-      message: "What are your project questions? (Required)",
-      validate: (titleInput) => {
-        if (titleInput) {
+      name: "username",
+      message: "What is your GitHub username? (Required)",
+      validate: (usernameInput) => {
+        if (usernameInput) {
           return true;
         } else {
-          console.log("Please enter your project questions!");
+          console.log("Please enter your GitHub username!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "What is your e-mail address? (Required)",
+      validate: (emailInput) => {
+        if (emailInput) {
+          return true;
+        } else {
+          console.log("Please enter your e-mail address!");
           return false;
         }
       },
