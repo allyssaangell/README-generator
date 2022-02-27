@@ -39,6 +39,9 @@ ${answers.description}
  GitHub Username: ${answers.username} (https://github.com/${answers.username})
 
  Email Address: ${answers.email}
+
+ ## Video Demonstration
+ https://watch.screencastify.com/v/FIZsdlDPmViaQikxOZJa
 `;
 }
 

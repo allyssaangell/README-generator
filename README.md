@@ -1,11 +1,12 @@
 # README Generator
 
-  ![license](https://img.shields.io/badge/License-MIT-blue.svg)(https://opensource.org/licenses/MIT)
+  [![license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This project is to demonstrate the creation of a README file using command line prompts.
+This project is to domenstrate the creation of a README file using command line prompts.
 
-  ## Table of Contents
+
+ ## Table of Contents
 
  * [Installation](#Installation)
  * [Usage](#Usage)
@@ -13,12 +14,13 @@ This project is to demonstrate the creation of a README file using command line 
  * [Tests](#Tests)
  * [License](#License)
  * [Questions](#Questions)
-  
+
+
  ## Installation Instructions
- you will need to install the proper node modules prior to starting.
+ You will need to install the proper node modules prior to starting.
 
  ## Usage Information
- Usage information here.
+ Usage information goes here.
 
  ## Contributors
  There are no additional contributors.
@@ -35,3 +37,6 @@ This project is to demonstrate the creation of a README file using command line 
  GitHub Username: allyssaangell (https://github.com/allyssaangell)
 
  Email Address: a.angell2@yahoo.com
+
+ ## Video Demonstration
+ https://watch.screencastify.com/v/FIZsdlDPmViaQikxOZJa
