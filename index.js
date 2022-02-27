@@ -63,9 +63,14 @@ const questions = () => {
       },
     },
     {
-      type: "input",
+      type: "list",
       name: "license",
       message: "What is your project license? (Required)",
+      choices: [
+        "Apache 2.0",
+        "ISC",
+        "MIT"
+    ],
       validate: (licenseInput) => {
         if (licenseInput) {
           return true;
@@ -118,16 +123,7 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-// const writeToFile = (fileName, data) => {
-//     return writeFileAsync(fileName, data);
-// }
-
 // TODO: Create a function to initialize app
-// fs.writeToFile('README.md', generateMarkdown, err => {
-//     if (err) throw err;
-//     console.log('README complete!');
-// });
-
 async function init() {
   try {
     const answers = await questions();
